@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 0 10em;
+}
+
+.navbar{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    padding-top: -2em;
+}
+
+.description {
+    
+}
+
+.about-image {
+    float: right;
+}
+
+.navbar img {
+    margin: 0 5em;
+}
+
+#about {
+    margin-top: 5em;
+    text-align: left;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col {
+    float: left;
+  }
+
+  .card {
+      width: 15em;
+      height: 25em;
+      padding: 2em;
+      margin: 1em 1em;
+      box-shadow: -21px 20px 19px -12px rgba(0,0,0,0.3);
+      border-radius: 15px;
+      /* background-color: gray; */
+  }
+
+  .card-image{
+      width: 10em;
+      height: 10em;
+      overflow: hidden;
+  }
+
+.card-title {
+    color: rgb(233, 19, 19);
+    font-size: 20pt;
+}
+
+.card-price {
+    color: rgb(18, 85, 18);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.menu-title {
+    font-size: 40pt;
+    text-align: center;
+}
+
+#banner {
+    margin-top: 5em;
+}
+
+.banner-image {
+    float: right;
+}
+
+.banner-content {
+    padding-top: 5em;
+
+}
+
+.banner-content h1 {
+    font-size: 30pt;
+
+}
+#banner:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.parallax {
+    height: 200px;
+    background: linear-gradient(rgba(212, 164, 164, 0.589),rgba(212, 164, 164, 0.589)),url("gedung.jpg");
+    background-attachment: fixed;
+    background-position:top ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+    margin-top: 5em;
+}
